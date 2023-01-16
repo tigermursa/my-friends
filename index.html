@@ -1,12 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  font awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- favicon links -->
+    <link rel="icon" type="image/x-icon" href="img/favikon.png">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- my css links -->
+    <link rel="stylesheet" href="styles.css">
     <title>My friends.com </title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-emphasis">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My <span class="f-word">F</span>riends</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Videos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Profiles
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Meraz</a></li>
+                                <li><a class="dropdown-item" href="#">Hasan</a></li>
+                                <li><a class="dropdown-item" href="#">Rahat</a></li>
+                                <li><a class="dropdown-item" href="#">Nurtaz</a></li>
+                                <li><a class="dropdown-item" href="#">Mursalin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bannar-container">
+            <div class="banner"></div>
+            <div class="phone-img"><img src="img/bannerr.jpeg" alt=""></div>
+        </section>
+
+        <section class="about-us">
+            <div class="us">
+                <h1>A<span class="primary-color">bout</span>us.<span class="dot2">.</span><span class="dot">.</span></h1>
+                <p>Our Friendship from high school.Meraz, Hasan and me were in Al-Amin Academy.<br> and Rahat were in
+                    Hasan Ali school. There are a lot of memories among us,<br> and we all wish we can go back to the
+                    past.
+                </p>
+            </div>
+            <section>
+                
+                <div>
+                    <div class="person-container">
+                        <div class="person-img">
+                            <img src="img/hasan.jpg" alt="">
+                        </div>
+                        <div class="person-info">
+                            <h1 class="name">Mahmudul <span class="primary-color">Hasan</span> </h1>
+                            <h2 class="job"><i class="fa-solid fa-briefcase"></i>Student(MBBS)</h2>
+                            <h3 class="birthday"><i class="fa-solid fa-calendar-days"></i>Birthday:13th December</h3>
+                            <p class="birth-place"><i class="fa-solid fa-globe"></i>Born in: Chittagong,Bangladesh </p>
+                            <p class="current-place"><i class="fa-solid fa-street-view"></i>Current City:
+                                Mogbazar-Dhaka,Bangladesh </p>
+                            <p class="fav-food"><i class="fa-solid fa-utensils"></i>Favourite food: Kacchi Briyani</p>
+                            <p class="fav-teacher"><i class="fa-solid fa-person"></i>favourite Teacher: Niaz Morshed
+                                (from
+                                high
+                                school)</p>
+                            <p class="perefer-marriage"><i class="fa-solid fa-heart-circle-check"></i>Prefer marriage:
+                                Love
+                                marriage</p>
+                            <p class="hobby"><i class="fa-solid fa-face-smile"></i>Hobby:Exploring and observation
+                            </p>
+                            <p class="fav-color"><i class="fa-sharp fa-solid fa-palette"></i>Favourite color: Black and
+                                Blue</p>
+                            <p class="phone"><i class="fa-solid fa-mobile-screen"></i>Phone: 01863766300</p>
+                            <p class="email"><i class="fa-sharp fa-solid fa-envelope"></i>Email: iamhaquehasan@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div class="person-container" id="meraz">
+                        <div class="person-info">
+                            <h1 class="name"><span class="primary-color">Meraz</span>ul Islam</h1>
+                            <h2 class="job"><i class="fa-solid fa-briefcase"></i>Student(Textile Engineering)</h2>
+                            <h3 class="birthday"><i class="fa-solid fa-calendar-days"></i>Birthday:9th July </h3>
+                            <p class="birth-place"><i class="fa-solid fa-globe"></i>Born in: Chandpur,Bangladesh </p>
+                            <p class="current-place"><i class="fa-solid fa-street-view"></i>Current City:
+                                Savar-Dhaka,Bangladesh </p>
+                            <p class="fav-food"><i class="fa-solid fa-utensils"></i>Favourite food: Kacchi Briyani</p>
+                            <p class="fav-teacher"><i class="fa-solid fa-person"></i>favourite Teacher: Fahmida Mam(from
+                                University)</p>
+                            <p class="perefer-marriage"><i class="fa-solid fa-heart-circle-check"></i>Prefer
+                                marriag:Arrange marriage</p>
+                            <p class="hobby"><i class="fa-solid fa-face-smile"></i>Hobby: Tour</p>
+                            <p class="fav-color"><i class="fa-sharp fa-solid fa-palette"></i>Favourite color: Black</p>
+                            <p class="phone"><i class="fa-solid fa-mobile-screen"></i>Phone: 01638234289</p>
+                            <p class="email"><i class="fa-sharp fa-solid fa-envelope"></i>Email: mmeraz772@gmail.com
+                            </p>
+                        </div>
+                        <div class="person-img">
+                            <img src="img/meraz.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="person-container">
+                        <div class="person-img">
+                            <img class="nuru" src="img/nurtaz.jpg" alt="">
+                        </div>
+                        <div class="person-info">
+                            <h1 class="name"> <span class="primary-color">Noortaz</span> Ahmed</h1>
+                            <h2 class="job"><i class="fa-solid fa-briefcase"></i>Student(CSE Engineering)</h2>
+                            <h3 class="birthday"><i class="fa-solid fa-calendar-days"></i>Birthday:9th July </h3>
+                            <p class="birth-place"><i class="fa-solid fa-globe"></i>Born in: Chandpur,Bangladesh </p>
+                            <p class="current-place"><i class="fa-solid fa-street-view"></i>Current City:
+                                Banasree-Dhaka,Bangladesh </p>
+                            <p class="fav-food"><i class="fa-solid fa-utensils"></i>Favourite food: Kacchi Briyani</p>
+                            <p class="fav-teacher"><i class="fa-solid fa-person"></i>favourite Teacher: (no data)</p>
+                            <p class="perefer-marriage"><i class="fa-solid fa-heart-circle-check"></i>Prefer
+                                marriag:Love marriage</p>
+                            <p class="hobby"><i class="fa-solid fa-face-smile"></i>Hobby:Porn/Smoking</p>
+                            <p class="fav-color"><i class="fa-sharp fa-solid fa-palette"></i>Favourite color: Black</p>
+                            <p class="phone"><i class="fa-solid fa-mobile-screen"></i>Phone: 01627129787</p>
+                            <p class="email"><i class="fa-sharp fa-solid fa-envelope"></i>Email:(no data)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="person-container" id="mursalin">
+                        <div class="person-info">
+                            <h1 class="name"><span class="primary-color">Mursalin</span> Hossain</h1>
+                            <h2 class="job"><i class="fa-solid fa-briefcase"></i>Student/Sales Representative </h2>
+                            <h3 class="birthday"><i class="fa-solid fa-calendar-days"></i>Birthday:23 November </h3>
+                            <p class="birth-place"><i class="fa-solid fa-globe"></i>Born in: Chittagong,Bangladesh </p>
+                            <p class="current-place"><i class="fa-solid fa-street-view"></i>Current City:
+                                South-Banasree-Dhaka,Bangladesh </p>
+                            <p class="fav-food"><i class="fa-solid fa-utensils"></i>Favourite food: All Briyani</p>
+                            <p class="fav-teacher"><i class="fa-solid fa-person"></i>favourite Teacher: Niaz Morshed
+                                (from
+                                high
+                                school)
+                            <p class="perefer-marriage"><i class="fa-solid fa-heart-circle-check"></i>Prefer
+                                marriag:Love marriage</p>
+                            <p class="hobby"><i class="fa-solid fa-face-smile"></i>Hobby:Sleep/Cycling </p>
+                            <p class="fav-color"><i class="fa-sharp fa-solid fa-palette"></i>Favourite color: Royal-Blue
+                            </p>
+                            <p class="phone"><i class="fa-solid fa-mobile-screen"></i>Phone: 01782868063</p>
+                            <p class="email"><i class="fa-sharp fa-solid fa-envelope"></i>Email:
+                                mursalinhossian377@gmail.com
+                            </p>
+                        </div>
+                        <div class="person-img">
+                            <img class="muru" src="img/mursalin.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="person-container">
+                        <div class="person-img">
+                            <img src="img/rahat.jpg" alt="">
+                        </div>
+                        <div class="person-info">
+                            <h1 class="name">Yeasin Patwary <span class="primary-color">RahAt</span></h1>
+                            <h2 class="job"><i class="fa-solid fa-briefcase"></i>Student/Reservationists</h2>
+                            <h3 class="birthday"><i class="fa-solid fa-calendar-days"></i>Birthday: 4th September </h3>
+                            <p class="birth-place"><i class="fa-solid fa-globe"></i>Born in: Chandpur,Bangladesh </p>
+                            <p class="current-place"><i class="fa-solid fa-street-view"></i>Current City:
+                                Dhanmondi-Dhaka,Bangladesh </p>
+                            <p class="fav-food"><i class="fa-solid fa-utensils"></i>Favourite food:(no data)</p>
+                            <p class="fav-teacher"><i class="fa-solid fa-person"></i>favourite Teacher: (no data)</p>
+                            <p class="perefer-marriage"><i class="fa-solid fa-heart-circle-check"></i>Prefer
+                                marriag:Love marriage</p>
+                            <p class="hobby"><i class="fa-solid fa-face-smile"></i>Hobby: Movies</p>
+                            <p class="fav-color"><i class="fa-sharp fa-solid fa-palette"></i>Favourite color: Black</p>
+                            <p class="phone"><i class="fa-solid fa-mobile-screen"></i>Phone: 01730277533</p>
+                            <p class="email"><i class="fa-sharp fa-solid fa-envelope"></i>Email: (no data)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
