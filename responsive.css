@@ -55,7 +55,7 @@
 
 @media(max-width:767px){
     /* CUSTOM CSS */
-    h1{
+    /* h1{
         font-size: 40px;
         line-height: 48px;
     }
@@ -65,8 +65,9 @@
     p{
         font-size: 13px;
         line-height: 24px;
-    }
+    } */
     *{
         margin: 1.5px;
+        color: rgb(175, 174, 171);
     }
 }
