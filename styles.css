@@ -111,14 +111,14 @@
   display: flex;
   justify-content: center;
   /* border: 1px solid rgb(4, 0, 255); */
-  background-color: antiquewhite;
+  background-color: rgb(247, 250, 208);
   box-sizing: border-box;
   box-shadow: 4px 5px 8px rgb(0, 0, 0);
   border-radius: 15px;
 }
 
 .person-img img {
-  width: 650px;
+  width: 100%;
   border-radius: 10px 10px 0 0px;
 }
 .nuru {
@@ -128,18 +128,18 @@
   text-align: left;
   margin-bottom: 200px;
   cursor: pointer;
-  
 }
 .person-info {
   width: 99%;
   padding-top: 80px;
-  background-color: rgb(247, 250, 208);
+  background: rgb(255,248,185);
+background: linear-gradient(90deg, rgba(255,248,185,1) 0%, rgba(129,232,215,1) 99%);
   border-left: 2px solid royalblue;
   border-radius: 0px 0px 10px 10px;
   color: rgb(2, 2, 2);
 }
-.person-info p{
- color: black;
+.person-info p {
+  color: black;
 }
 
 .us {
@@ -187,11 +187,10 @@
   .person-container {
     flex-direction: column;
     background-color: rgb(247, 246, 244);
-    padding-left:5px ;
+    padding-left: 5px;
   }
   .person-info {
     padding-top: 10px;
- 
   }
   .about-us {
     margin-top: 50px;
@@ -265,14 +264,14 @@
     font-weight: bold;
   }
 
-  p{
+  p {
     padding: 0px;
   }
-  #meraz{
+  #meraz {
     flex-flow: column-reverse;
   }
 
-  #mursalin{
+  #mursalin {
     flex-flow: column-reverse;
   }
 }
