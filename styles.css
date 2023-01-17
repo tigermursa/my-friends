@@ -1,9 +1,9 @@
 * {
   margin: 0px 1%;
   padding: 0;
-  /* background-color: rgb(172, 158, 158); */
   font-family: "Merriweather", serif;
   color: rgb(59, 56, 56);
+  max-width: 100%;
 }
 
 /* ---------------------------------------------------------------
@@ -46,7 +46,7 @@
 }
 
 .f-word {
-  animation: fword 1s ease 0.2s infinite alternate;
+  animation: fword 1s ease-in-out 0.2s infinite alternate;
   animation-play-state: running;
   position: relative;
   top: 0px;
@@ -57,7 +57,7 @@
     top: 0px;
   }
   50% {
-    top: -5px;
+    left: 3px;
   }
   100% {
     top: 5px;
@@ -113,13 +113,13 @@
   /* border: 1px solid rgb(4, 0, 255); */
   background-color: antiquewhite;
   box-sizing: border-box;
-  box-shadow: 5px 4px 6px rgb(14, 12, 12);
+  box-shadow: 4px 5px 8px rgb(0, 0, 0);
   border-radius: 15px;
 }
 
 .person-img img {
   width: 650px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0px;
 }
 .nuru {
   height: 600px;
@@ -128,13 +128,18 @@
   text-align: left;
   margin-bottom: 200px;
   cursor: pointer;
+  
 }
 .person-info {
-  /* border: 2px solid red; */
-  width: 98%;
+  width: 99%;
   padding-top: 80px;
-  background-color: antiquewhite;
-  border-left: 2px solid rgb(163, 8, 8);
+  background-color: rgb(247, 250, 208);
+  border-left: 2px solid royalblue;
+  border-radius: 0px 0px 10px 10px;
+  color: rgb(2, 2, 2);
+}
+.person-info p{
+ color: black;
 }
 
 .us {
@@ -176,7 +181,7 @@
   }
   .phone-img img {
     display: block;
-    width: 400px;
+    width: 500px;
     margin-top: -10px;
   }
   .person-container {
@@ -186,6 +191,7 @@
   }
   .person-info {
     padding-top: 10px;
+ 
   }
   .about-us {
     margin-top: 50px;
@@ -217,19 +223,20 @@
   }
 
   .name {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
     /* border-left: 3px solid  rgb(163, 8, 8); */
     /* padding-left: 20px; */
   }
   .job {
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 19px;
   }
   .birthday {
-    font-size: 20px;
+    font-size: 18px;
   }
   .birth-place {
-    font-size: 18px;
+    font-size: 17px;
   }
   .current-place {
     font-size: 15px;
